@@ -64,3 +64,12 @@ jobs:
           aws cloudfront create-invalidation \
             --distribution-id ${{ env.CLOUDFRONT_DISTRIBUTION_ID }} \
             --paths "/${{ env.DEPLOY_PATH }}/*"
+
+      - name: Trigger portal update
+        if: success()
+        run: |
+          echo "Triggering portal workflow to update handson cards..."
+          gh workflow run deploy.yml --repo mtmtnao-handson/aws-handson-portal
+          echo "Portal update triggered successfully"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
