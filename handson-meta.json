@@ -1,9 +1,9 @@
 {
-  "name": "ハンズオン名を入力",
-  "description": "ハンズオンの説明を入力してください。",
-  "icon": "material-school",
-  "duration": "約60分",
+  "name": "サンプルハンズオン（テスト用）",
+  "description": "ポータル自動登録のテスト用サンプルハンズオンです。",
+  "icon": "material-test-tube",
+  "duration": "約15分",
   "level": "初級",
-  "order": 100,
+  "order": 999,
   "enabled": true
 }

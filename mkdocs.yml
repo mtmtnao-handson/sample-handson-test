@@ -4,14 +4,14 @@
 # ============================================================
 
 # ハンズオン名（ブラウザのタブに表示されます）
-site_name: "ハンズオン名を入力"
+site_name: "サンプルハンズオン（テスト用）"
 
 # ハンズオンの説明
-site_description: "ハンズオンの説明を入力"
+site_description: "ポータル自動登録のテスト用サンプルハンズオンです。"
 
 # サイトURL（リポジトリ名に合わせて変更）
 # 例: https://d2g4vxtyjwu8ha.cloudfront.net/your-repo-name/
-site_url: https://d2g4vxtyjwu8ha.cloudfront.net/REPO_NAME/
+site_url: https://d2g4vxtyjwu8ha.cloudfront.net/sample-handson-test/
 
 # ============================================================
 # ナビゲーション設定
